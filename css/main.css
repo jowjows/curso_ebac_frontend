@@ -1,0 +1,19 @@
+h1{
+    color: green;
+}
+
+h2{
+    color: green;
+}
+
+#economy h2{
+    color: gold;
+}
+
+#entret h2{
+    color: orange;
+}
+
+#tec h2{
+    color: blue;
+}
