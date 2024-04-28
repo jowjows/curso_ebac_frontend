@@ -11,9 +11,10 @@ header .container{
 }
 
 body > header{
-    background-color: rgb(155, 155, 155);
+    background-color: #182C61;
     padding: 16px 0;
     color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 header li{
