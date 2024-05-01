@@ -2,7 +2,6 @@ const form = document.getElementById("form-ab");
 
 function validaCampo(a,b){
     return b > a
-  
 }
 
 form.addEventListener('submit',function(e){
