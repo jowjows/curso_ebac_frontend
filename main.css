@@ -1,16 +1,27 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: auto;
+    width: 80%;
+    padding: 8px;
     font-family: "Rajdhani", sans-serif;
-    font-weight: 400;
     font-style: normal;
 }
 
 .container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 8px auto;
+    text-align: left;
+}
+
+.container p{
+    text-align: left;
+    margin-left: 0;
+}
+
+#campo-a,
+#campo-b{
+    width: 75%;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 16px;
+    border:solid 1px #ccc;
 }
 
 
@@ -18,5 +29,26 @@ button{
     background-color: brown;
     padding: 16px 32px;
     margin-top: 8px;
+    font-size: 18px;
+    color: rgb(242, 242, 242);
+    font-weight: bolder;
+    border:solid 1px #ccc;
+}
+
+button:hover{
+    background-color:rgb(171, 86, 86);
+    cursor: pointer;
+}
+
+
+.enviar{
+    background-color: rgb(42, 165, 42);
+    padding: 16px 32px;
+    margin-top: 8px;
+}
+
+.enviar:hover{
+    background-color:rgb(80, 168, 80);
+    cursor: pointer;
 }
 
